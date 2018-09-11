@@ -12,6 +12,10 @@ class Overloading{
     void display(double b,int a){
         System.out.println("Method: 3 With Parameter, Just I changed the parameter order b = "+b+" a = "+a);
     }
+    //Wrong, because method return type don't play a role in Overload resolution.
+    //int display(){
+    //    return a;
+    //}
 }
 public class demo{   
     public static void main(String[] args) {
